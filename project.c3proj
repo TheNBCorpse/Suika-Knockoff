@@ -1,0 +1,470 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 41200,
+	"name": "Generic Suika Game Knockoff",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "LocalStorage",
+			"name": "Local storage",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particles",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Physics",
+			"name": "Physics",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Timer",
+			"name": "Timer",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "destroy",
+			"name": "Destroy outside layout",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "glowhorizontal",
+			"name": "Glow horizontal",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "glowvertical",
+			"name": "Glow vertical",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
+	"uniqueId": "nz7rz8yi7j0",
+	"objectTypes": {
+		"items": [
+			"solid",
+			"spawner",
+			"dropper",
+			"Mouse",
+			"next",
+			"next_text",
+			"Browser",
+			"death",
+			"score_text",
+			"despawn",
+			"LocalStorage",
+			"overlay",
+			"gameover",
+			"gameover_score",
+			"gameover_restart",
+			"Keyboard",
+			"merge_poof",
+			"Audio",
+			"dropper_unused",
+			"dropper_cooldown",
+			"Text"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"ball1",
+					"ball10",
+					"ball11",
+					"ball2",
+					"ball3",
+					"ball4",
+					"ball5",
+					"ball6",
+					"ball7",
+					"ball8",
+					"ball9"
+				],
+				"subfolders": [],
+				"name": "balls"
+			},
+			{
+				"items": [
+					"ball10merge",
+					"ball11merge",
+					"ball2merge",
+					"ball3merge",
+					"ball4merge",
+					"ball5merge",
+					"ball6merge",
+					"ball7merge",
+					"ball8merge",
+					"ball9merge"
+				],
+				"subfolders": [],
+				"name": "merge"
+			},
+			{
+				"items": [
+					"text1",
+					"text10",
+					"text11",
+					"text2",
+					"text3",
+					"text4",
+					"text5",
+					"text6",
+					"text7",
+					"text8",
+					"text9",
+					"colorless_next"
+				],
+				"subfolders": [],
+				"name": "colorless"
+			}
+		]
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [
+			"balls",
+			"colorless",
+			"ballmerges"
+		],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Layout 1",
+			"dump"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Event sheet 1"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [
+				{
+					"name": "ball2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 250706094564167,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ball1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 667409252031011,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ball11.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 886399259342084,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ball10.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 372803567427528,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ball9.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 591818404192858,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ball8.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 211866042653678,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ball7.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 751105387719505,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ball6.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 435980613251103,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ball5.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 791865780097957,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ball4.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 352671852532219,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ball3.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 227789221760726,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 785797475471199,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 117810061700836,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 413533623914963,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				},
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 335341631343374,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 593776159869747,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 678634001149289,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 284845882598185,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-original.png",
+					"type": "image/png",
+					"sid": 757216992664130,
+					"icon-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"flowcharts": {
+		"items": [],
+		"subfolders": []
+	},
+	"properties": {
+		"description": "1.0.0 - first release\n1.0.1 - dupe glitch \"fix\"\n2.0.0 - combining effect, score and high score, the ability to lose and play again, audio, slower combining\n2.1.0 - physics adjustments\n3.0.0 - dark green no longer clips wall, colorblind mode added\n3.0.1 - fixed game over screen not appearing\n3.1.0 - finally patched the elusive ball duplication bug\n3.1.1 - fixed balls still moving after game over\n4.0.0 - physics adjustments, difficulty increase, tweaks to ball combining, added app icons, decreased odds of getting yellow balls when above 300 points (therefore increasing the chances of getting other balls), added an indicator for the cooldown",
+		"version": "4.0.0",
+		"author": "TheNBCorpse",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "com.thenbcorpse.suikaknockoff",
+		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"autoReloadScriptsOnPreview": false,
+		"exportFileStructure": "folders",
+		"uidAllocationMode": "increment"
+	},
+	"viewportWidth": 1920,
+	"viewportHeight": 1080,
+	"firstLayout": null
+}

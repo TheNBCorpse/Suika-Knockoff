@@ -1,0 +1,37 @@
+{
+	"name": "dropper_cooldown",
+	"plugin-id": "TiledBg",
+	"sid": 139606047263693,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 976292126620765
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		}
+	],
+	"image": {
+		"width": 101,
+		"height": 56,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"fileType": "image/png",
+		"imageSpriteId": 8901347,
+		"useCollisionPoly": true,
+		"tag": ""
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"name": "overlay",
+	"plugin-id": "TiledBg",
+	"sid": 880118969470444,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"fileType": "image/png",
+		"imageSpriteId": 5576898,
+		"useCollisionPoly": true,
+		"tag": ""
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name": "ballmerges",
+	"plugin-id": "Sprite",
+	"sid": 282271584732400,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"ball10merge",
+		"ball11merge",
+		"ball2merge",
+		"ball3merge",
+		"ball4merge",
+		"ball5merge",
+		"ball6merge",
+		"ball7merge",
+		"ball8merge",
+		"ball9merge"
+	]
+}

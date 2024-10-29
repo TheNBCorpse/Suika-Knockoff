@@ -1,0 +1,53 @@
+{
+	"name": "ball8",
+	"plugin-id": "Sprite",
+	"sid": 540307024718211,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "index",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 370594919016188
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "destroy",
+			"name": "DestroyOutsideLayout",
+			"sid": 634390062810104
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 400,
+						"height": 400,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4113396,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 702565494950550,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

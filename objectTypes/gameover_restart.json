@@ -1,0 +1,9 @@
+{
+	"name": "gameover_restart",
+	"plugin-id": "Text",
+	"sid": 649465377681069,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

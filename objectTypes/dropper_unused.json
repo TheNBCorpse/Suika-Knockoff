@@ -1,0 +1,76 @@
+{
+	"name": "dropper_unused",
+	"plugin-id": "Sprite",
+	"sid": 539865879406392,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 995045232332154
+		},
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 440961204069811
+		},
+		{
+			"behaviorId": "Timer",
+			"name": "Timer2",
+			"sid": 545657150932321
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "glowhorizontal",
+			"name": "GlowHorizontal"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 101,
+						"height": 56,
+						"originX": 0.49504950495049505,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 2303200,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.9900990099009901,
+								0,
+								0.9900990099009901,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 905434968487779,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

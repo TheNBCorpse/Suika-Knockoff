@@ -1,0 +1,22 @@
+{
+	"name": "merge_poof",
+	"plugin-id": "Particles",
+	"sid": 375019386467524,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"fileType": "image/png",
+		"imageSpriteId": 76535,
+		"useCollisionPoly": true,
+		"tag": ""
+	}
+}

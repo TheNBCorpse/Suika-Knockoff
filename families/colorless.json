@@ -1,0 +1,22 @@
+{
+	"name": "colorless",
+	"plugin-id": "Text",
+	"sid": 980420634402530,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"text1",
+		"text10",
+		"text2",
+		"text3",
+		"text4",
+		"text5",
+		"text6",
+		"text7",
+		"text8",
+		"text9",
+		"text11",
+		"colorless_next"
+	]
+}

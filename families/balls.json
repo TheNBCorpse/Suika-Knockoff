@@ -1,0 +1,45 @@
+{
+	"name": "balls",
+	"plugin-id": "Sprite",
+	"sid": 168880338601377,
+	"instanceVariables": [
+		{
+			"name": "canmerge",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 414248380212189
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Physics",
+			"name": "Physics",
+			"sid": 774132038083053
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"ball1",
+		"ball2",
+		"ball3",
+		"ball4",
+		"ball5",
+		"ball11",
+		"ball6",
+		"ball7",
+		"ball8",
+		"ball9",
+		"ball10",
+		"ball2merge",
+		"ball3merge",
+		"ball4merge",
+		"ball5merge",
+		"ball6merge",
+		"ball7merge",
+		"ball8merge",
+		"ball9merge",
+		"ball10merge",
+		"ball11merge"
+	]
+}

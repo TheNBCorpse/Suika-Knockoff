@@ -1,0 +1,28 @@
+{
+	"name": "solid",
+	"plugin-id": "TiledBg",
+	"sid": 253476792175965,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Physics",
+			"name": "Physics",
+			"sid": 566458451333196
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"fileType": "image/png",
+		"imageSpriteId": 6454106,
+		"useCollisionPoly": true,
+		"tag": ""
+	}
+}
